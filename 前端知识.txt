@@ -1,0 +1,78 @@
+6.26
+<!--不缓存 -->
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-cache">
+<!--过期时间 -->
+<meta http-equiv="expires" content="0">   
+<!--让搜索更精准找到 -->
+<meta http-equiv="keywords" content="PHP,C,C++,linux,HTML,jquery">
+<meta http-equiv="description" content="互联网技术就业速成班课程展示">
+<!--手机端定义一比一的 -->
+<meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+<!--title中小图标 -->
+<Link Rel=\"ICON NAME\" href=\"http://图片的地址（注意与刚才的目录对应）\">
+
+6.27
+<!-- 用于阻止广告 -->
+<meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval' *.imooc.com *.mukewang.com *.baidu.com *.sina.com.cn *.bootcss.com">
+6.28
+<!-- 对于引入icon的方式 -->
+其中有把图标换成字体格式，然后在对应的地方用 css  的 content: "xxx";
+<!-- css3 background-size 背景图片样式大小 -->
+length   第一个宽度，第二个高度
+percentage  父元素的百分比来设置背景图像的宽度和高度。第一个值设置宽度，第二个值设置高度。
+cover	自适应父元素，铺满
+contain  自适应父元素，若一方到最大，则停止
+
+<!-- > 什么意思 -->
+与A B的区别在于，A B选择所有后代元素，而A>B只选择一代，(同一代,不是第一个)
+
+A~B  代表 A后面的所有B
+
+<!-- position -->
+absolute  		生成绝对定位的元素，相对于 static 定位以外的第一个父元素进行定位。元素的位置通过 "left", "top", "right" 以及 "bottom" 属性进行规定。
+relative		生成相对定位的元素，相对于其正常位置进行定位。因此，"left:20" 会向元素的 LEFT 位置添加 20 像素。
+
+z-index 		属性设置元素的堆叠顺序。拥有更高堆叠顺序的元素总是会处于堆叠顺序较低的元素的前面。
+visibility		属性规定元素是否可见。不可见时，仍会占用空间
+
+/*最后一个去除margin*/
+.index-card-container:last-child,.container-types .types-content-banner>a:last-child{margin-right:0}
+
+/*加阴影*/
+.course-card-container:hover{box-shadow:0 8px 16px 0 rgba(7,17,27,.2)}  		 //水平，垂直，模糊距离，阴影尺寸，颜色
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
