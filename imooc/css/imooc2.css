@@ -1,0 +1,52 @@
+/*整体样式*/
+@charset "utf-8";body,ul,li,h1,h2,h3,h4,h5,h6,form,input,textarea,button,p,th,td{margin: 0;padding: 0;}fieldset,img{border:0}:focus{outline: 0;}h1,h2,h3,h4,h5,h6{font-size: 100%;font-weight: 400;}input,button,select,textarea{border: 0;*font-size: 100%;}body{background: #fff;color: #5e5e5e;font: 14px/2em  Microsoft YaHei,SimSun,Arial;}ol,ul{list-style: none;}table{border-collapse: collapse;border-spacing:0 ;}caption,th{text-align: left;}:link,:visited,ins{text-decoration: none;}a:link,a:visited{color: #5e5e5e;}a:hover{color: #c9394a;}a:active{color: #666;}
+
+/*顶部*/
+#header{padding-top: 10px;height: 70px;background: #fff;}
+#nav{margin: 0 auto;width: auto;height: 60px;padding-right: 20px;z-index: 1000;position: relative;}
+#nav li{float:left;}
+#logo{margin: 0 20px;float: left;}
+.logo a{display: block;height: 60px;width: 200px;text-indent: 100%;background: url(../images/logo.png) center center no-repeat;overflow: hidden;white-space: nowrap;}
+.nav-item li{float: left;}
+.nav-item li a{padding: 0 20px;}
+.nav-item a{position: relative;display: block;text-align: center;font-size: 16px;height: 60px;line-height: 60px;color: #c9394a;}
+.nav-item a .icn-new{background: url(../images/new1.png) no-repeat;display: inline-block;position: relative;top:-10px;width: 16px;height: 16px;}
+.program-nav{padding-right:10px!important;}
+/*右侧登录*/
+#login-area{float: right;position: relative;}
+#login-area li{display: list-item;text-align:-webkit-match-parent}
+.shop-cart{width: 60px;height: 60px;}
+.shop-cart,.shop-cart-icon{width: 107px!important;padding: 0 18px;box-sizing: border-box;line-height: 60px;}
+.header-app a,.header-signin a,.header-signup a{display:block;width:60px;font-size:14px;text-align:center;height:60px;line-height:60px;color:#787d82;transition:background-color .2s}
+/*搜索框*/
+.search-warp{float: right;position: relative;padding-right:18px;}
+.search-warp .searchTags{left: 0px;top:20px;z-index: 100;}
+.pa{position: absolute;}
+.search-warp .searchTags a{padding: 5px 8px;border-radius: 3px;color: #93999f;background-color: #f3f5f7;}
+.search-area{float: right;position: relative;height: 38px;width: 210px;margin: 10px 0;padding-right: 30px;border: 0 solid #fff;border-bottom: 1px solid #d9dde1;zoom: 1;}
+.search-area .search-input{color: #71777d;background-color: transparent!important;padding: 5px 10px;width: 100%;height: 38px;line-height: 38px;font-size: 12px;float: left;border: 0;}
+
+/* 主题背景 */
+#main .bk{width: 100%;height: 490px;background: url(../images/bk.jpg);position: absolute;top:0;background-size:cover;}
+/* 中部导航 */
+.g-banner,.path-banner{box-shadow: 0 4px 8px 0 rgba(7,17,27,.1);}
+.g-banner{border-top-left-radius: 4px;border-top-right-radius:4px;background-color: #93999f;position: relative;height: 460px;width:1200px;overflow: hidden;margin: auto;}
+/* 5个小banner */
+.path-banner{width: 1200px;height: 120px;margin: 0 auto;border-bottom-left-radius: 4px;border-bottom-right-radius:4px;overflow: hidden;background-color: #fff;}
+.path-banner a{float: left;width: 240px;height: 120px;transition: .3s all;overflow: hidden;}
+.path-banner a:hover{margin-top: -5px ;}
+.path-banner img{display: block;width: 100%;height: 100%;border: 0;}
+/*实战训练*/
+.container-types{width: 1200px;padding-top:30px ;margin: 0 auto;}
+.container-types .types-title{position: relative;font-size: 20px;font-weight: 200;color: #071111b;margin-bottom:24px;line-height: 20px;}
+.container-types .types-title .types-title-more{position: absolute;color: #93999f;font-size: 14px;top:0;right: 10px;height: 20px;}
+
+
+
+
+
+
+
+
+
+
